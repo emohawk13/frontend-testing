@@ -1,0 +1,53 @@
+.heading {
+    text-align: center;
+    color: black;
+    z-index: 1;
+}
+
+body {
+    background-image: url("https://imgs.search.brave.com/V9DOT8pSAYuKpAWLb1ZHoUbN4KfnzdQGvnXyEl3Cvfw/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9idXJz/dC5zaG9waWZ5Y2Ru/LmNvbS9waG90b3Mv/aXBob25lLWJhY2tn/cm91bmQtbmF0dXJl/LmpwZz93aWR0aD0x/MDAwJmZvcm1hdD1w/anBnJmV4aWY9MCZp/cHRjPTA");
+    background-repeat: repeat-y;
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    z-index: -1;
+}
+
+.transbox {
+    margin: 30px;
+    background-color: aliceblue;
+    border: 1px solid black;
+    opacity: 0.8;
+    z-index: 1;
+}
+
+.transbox p,
+.transbox h2 {
+    margin: 5%;
+    font-weight: bold;
+    color: black;
+}
+
+.transbox h2 {
+    text-align: center;
+    border-bottom: 2px solid Black;
+}
+
+.transbox-heading {
+    margin: auto;
+    height: auto;
+    width: 45%;
+    background-color: aliceblue;
+    border: 1px solid black;
+    opacity: 0.8;
+}
+
+.subTitle {
+    margin: auto;
+    height: auto;
+    text-align: center;
+}
+
+h3 {
+    margin-inline-start: auto;
+}
